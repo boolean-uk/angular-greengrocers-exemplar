@@ -1,0 +1,10 @@
+li {
+  display: grid;
+  place-items: center;
+  grid-row-gap: 0.5rem;
+}
+
+img {
+  width: 125px;
+  height: 125px;
+}

@@ -1,0 +1,6 @@
+<app-cart-list
+  [items]="cartItems$ | async"
+  (increaseQuantity)="increaseQuantity($event)"
+  (decreaseQuantity)="decreaseQuantity($event)"
+></app-cart-list>
+<app-total [items]="cartItems$ | async"></app-total>

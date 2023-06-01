@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  font-family: "Trebuchet MS", "Lucida Sans", Arial, sans-serif;
+}
+
+h1,
+h2 {
+  margin-bottom: 1rem;
+}
+
+/* Buttons */
+
+button {
+  padding: 0.25rem 0.5rem;
+
+  text-transform: uppercase;
+  font-size: 0.725rem;
+
+  cursor: pointer;
+}
+
+.center {
+  display: grid;
+  place-items: center;
+}

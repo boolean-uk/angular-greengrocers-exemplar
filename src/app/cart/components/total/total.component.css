@@ -1,0 +1,11 @@
+:host {
+  padding: 0.5rem 1rem;
+
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.total-number {
+  font-weight: bold;
+}

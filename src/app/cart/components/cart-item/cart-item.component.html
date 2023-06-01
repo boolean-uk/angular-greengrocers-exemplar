@@ -1,0 +1,17 @@
+<li *ngIf="item">
+  <img class="cart--item-icon" [src]="itemImage" [alt]="item.name" />
+  <p>{{ item.name }}</p>
+  <button
+    class="quantity-btn remove-btn center"
+    (click)="decreaseQuantitiy.emit(item)"
+  >
+    -
+  </button>
+  <span class="quantity-text center">{{ item.quantity }}</span>
+  <button
+    class="quantity-btn add-btn center"
+    (click)="increaseQuantitiy.emit(item)"
+  >
+    +
+  </button>
+</li>

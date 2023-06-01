@@ -1,0 +1,8 @@
+<li *ngIf="item">
+    <div class="store--item-icon">
+        <img class="store--item-icon"
+            [src]='itemImage'
+        />
+    </div>
+    <button (click)="addToCart.emit(item)">Add to cart</button>
+</li>

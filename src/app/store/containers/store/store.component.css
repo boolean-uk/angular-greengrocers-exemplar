@@ -1,0 +1,14 @@
+:host {
+  display: block;
+  box-sizing: border-box;
+  height: 40vh;
+  padding: 1rem;
+
+  overflow-y: scroll;
+
+  background-color: #e7f4ea;
+}
+
+h1 {
+  text-align: center;
+}
